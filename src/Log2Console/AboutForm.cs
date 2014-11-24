@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Windows.Forms;
 
-using Log2Console.Settings;
+using Log2ConsoleLib.Settings;
 
 
 namespace Log2Console

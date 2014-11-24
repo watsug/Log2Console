@@ -10,10 +10,10 @@ using Microsoft.WindowsAPICodePack.Taskbar;
 
 using ControlExtenders;
 
-using Log2Console.Log;
-using Log2Console.Receiver;
-using Log2Console.Settings;
-using Log2Console.UI;
+using Log2ConsoleLib.Log;
+using Log2ConsoleLib.Receiver;
+using Log2ConsoleLib.Settings;
+using Log2ConsoleLib.UI;
 
 using Timer = System.Threading.Timer;
 
@@ -1094,7 +1094,7 @@ namespace Log2Console
     {
       _pauseLog = !_pauseLog;
 
-      pauseBtn.Image = _pauseLog ? Properties.Resources.Go16 : Properties.Resources.Pause16;
+      pauseBtn.Image = _pauseLog ? global::Log2ConsoleLib.Properties.Resources.Go16 : global::Log2ConsoleLib.Properties.Resources.Pause16;
       pauseBtn.Checked = _pauseLog;
 
       if (_isWin7orLater)
@@ -1102,7 +1102,7 @@ namespace Log2Console
         _pauseWinbarBtn.Icon = Icon.FromHandle(((Bitmap)pauseBtn.Image).GetHicon());
 
         TaskbarManager.Instance.SetOverlayIcon(
-            _pauseLog ? Icon.FromHandle(Properties.Resources.Pause16.GetHicon()) : null, String.Empty);
+            _pauseLog ? Icon.FromHandle(global::Log2ConsoleLib.Properties.Resources.Pause16.GetHicon()) : null, String.Empty);
       }
     }
 
