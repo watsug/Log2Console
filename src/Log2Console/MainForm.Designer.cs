@@ -185,7 +185,7 @@ namespace Log2Console
             // 
             this.quitBtn.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.quitBtn.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quitBtn.Image = global::Log2ConsoleLib.Properties.Resources.close16;
+            this.quitBtn.Image = ((System.Drawing.Image)(resources.GetObject("quitBtn.Image")));
             this.quitBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.quitBtn.Name = "quitBtn";
             this.quitBtn.Size = new System.Drawing.Size(49, 22);
@@ -195,7 +195,7 @@ namespace Log2Console
             // toolStripLabel3
             // 
             this.toolStripLabel3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripLabel3.Image = global::Log2ConsoleLib.Properties.Resources.burn16;
+            this.toolStripLabel3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripLabel3.Image")));
             this.toolStripLabel3.Name = "toolStripLabel3";
             this.toolStripLabel3.Size = new System.Drawing.Size(16, 22);
             this.toolStripLabel3.ToolTipText = "Log Level Filter";
@@ -224,7 +224,7 @@ namespace Log2Console
             // pauseBtn
             // 
             this.pauseBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.pauseBtn.Image = global::Log2ConsoleLib.Properties.Resources.Pause16;
+            this.pauseBtn.Image = ((System.Drawing.Image)(resources.GetObject("pauseBtn.Image")));
             this.pauseBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.pauseBtn.Name = "pauseBtn";
             this.pauseBtn.Size = new System.Drawing.Size(23, 22);
@@ -239,7 +239,7 @@ namespace Log2Console
             // goToFirstLogBtn
             // 
             this.goToFirstLogBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.goToFirstLogBtn.Image = global::Log2ConsoleLib.Properties.Resources.backward16;
+            this.goToFirstLogBtn.Image = ((System.Drawing.Image)(resources.GetObject("goToFirstLogBtn.Image")));
             this.goToFirstLogBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.goToFirstLogBtn.Name = "goToFirstLogBtn";
             this.goToFirstLogBtn.Size = new System.Drawing.Size(23, 22);
@@ -249,7 +249,7 @@ namespace Log2Console
             // autoLogToggleBtn
             // 
             this.autoLogToggleBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.autoLogToggleBtn.Image = global::Log2ConsoleLib.Properties.Resources.movefile16;
+            this.autoLogToggleBtn.Image = ((System.Drawing.Image)(resources.GetObject("autoLogToggleBtn.Image")));
             this.autoLogToggleBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.autoLogToggleBtn.Name = "autoLogToggleBtn";
             this.autoLogToggleBtn.Size = new System.Drawing.Size(23, 22);
@@ -259,7 +259,7 @@ namespace Log2Console
             // goToLastLogBtn
             // 
             this.goToLastLogBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.goToLastLogBtn.Image = global::Log2ConsoleLib.Properties.Resources.forward16;
+            this.goToLastLogBtn.Image = ((System.Drawing.Image)(resources.GetObject("goToLastLogBtn.Image")));
             this.goToLastLogBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.goToLastLogBtn.Name = "goToLastLogBtn";
             this.goToLastLogBtn.Size = new System.Drawing.Size(23, 22);
@@ -274,7 +274,7 @@ namespace Log2Console
             // zoomOutLogListBtn
             // 
             this.zoomOutLogListBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.zoomOutLogListBtn.Image = global::Log2ConsoleLib.Properties.Resources.zoomout16;
+            this.zoomOutLogListBtn.Image = ((System.Drawing.Image)(resources.GetObject("zoomOutLogListBtn.Image")));
             this.zoomOutLogListBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.zoomOutLogListBtn.Name = "zoomOutLogListBtn";
             this.zoomOutLogListBtn.Size = new System.Drawing.Size(23, 22);
@@ -284,7 +284,7 @@ namespace Log2Console
             // zoomInLogListBtn
             // 
             this.zoomInLogListBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.zoomInLogListBtn.Image = global::Log2ConsoleLib.Properties.Resources.zoomin16;
+            this.zoomInLogListBtn.Image = ((System.Drawing.Image)(resources.GetObject("zoomInLogListBtn.Image")));
             this.zoomInLogListBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.zoomInLogListBtn.Name = "zoomInLogListBtn";
             this.zoomInLogListBtn.Size = new System.Drawing.Size(23, 22);
@@ -298,7 +298,7 @@ namespace Log2Console
             // 
             // clearBtn
             // 
-            this.clearBtn.Image = global::Log2ConsoleLib.Properties.Resources.deletefile16;
+            this.clearBtn.Image = ((System.Drawing.Image)(resources.GetObject("clearBtn.Image")));
             this.clearBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.clearBtn.Name = "clearBtn";
             this.clearBtn.Size = new System.Drawing.Size(54, 22);
@@ -314,7 +314,7 @@ namespace Log2Console
             // toolStripLabel4
             // 
             this.toolStripLabel4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripLabel4.Image = global::Log2ConsoleLib.Properties.Resources.find16;
+            this.toolStripLabel4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripLabel4.Image")));
             this.toolStripLabel4.Name = "toolStripLabel4";
             this.toolStripLabel4.Size = new System.Drawing.Size(16, 22);
             this.toolStripLabel4.Text = "toolStripLabel4";
@@ -337,7 +337,7 @@ namespace Log2Console
             // 
             this.logDetailsPanelToggleBtn.Checked = true;
             this.logDetailsPanelToggleBtn.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.logDetailsPanelToggleBtn.Image = global::Log2ConsoleLib.Properties.Resources.window16;
+            this.logDetailsPanelToggleBtn.Image = ((System.Drawing.Image)(resources.GetObject("logDetailsPanelToggleBtn.Image")));
             this.logDetailsPanelToggleBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.logDetailsPanelToggleBtn.Name = "logDetailsPanelToggleBtn";
             this.logDetailsPanelToggleBtn.Size = new System.Drawing.Size(62, 22);
@@ -349,7 +349,7 @@ namespace Log2Console
             // 
             this.loggersPanelToggleBtn.Checked = true;
             this.loggersPanelToggleBtn.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.loggersPanelToggleBtn.Image = global::Log2ConsoleLib.Properties.Resources.window16;
+            this.loggersPanelToggleBtn.Image = ((System.Drawing.Image)(resources.GetObject("loggersPanelToggleBtn.Image")));
             this.loggersPanelToggleBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.loggersPanelToggleBtn.Name = "loggersPanelToggleBtn";
             this.loggersPanelToggleBtn.Size = new System.Drawing.Size(69, 22);
@@ -364,7 +364,7 @@ namespace Log2Console
             // 
             // settingsBtn
             // 
-            this.settingsBtn.Image = global::Log2ConsoleLib.Properties.Resources.configure16;
+            this.settingsBtn.Image = ((System.Drawing.Image)(resources.GetObject("settingsBtn.Image")));
             this.settingsBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.settingsBtn.Name = "settingsBtn";
             this.settingsBtn.Size = new System.Drawing.Size(78, 22);
@@ -373,7 +373,7 @@ namespace Log2Console
             // 
             // receiversBtn
             // 
-            this.receiversBtn.Image = global::Log2ConsoleLib.Properties.Resources.configure16;
+            this.receiversBtn.Image = ((System.Drawing.Image)(resources.GetObject("receiversBtn.Image")));
             this.receiversBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.receiversBtn.Name = "receiversBtn";
             this.receiversBtn.Size = new System.Drawing.Size(85, 22);
@@ -387,7 +387,7 @@ namespace Log2Console
             // 
             // quickLoadBtn
             // 
-            this.quickLoadBtn.Image = global::Log2ConsoleLib.Properties.Resources.documentsorcopy16;
+            this.quickLoadBtn.Image = ((System.Drawing.Image)(resources.GetObject("quickLoadBtn.Image")));
             this.quickLoadBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.quickLoadBtn.Name = "quickLoadBtn";
             this.quickLoadBtn.Size = new System.Drawing.Size(100, 22);
@@ -397,7 +397,7 @@ namespace Log2Console
             // saveBtn
             // 
             this.saveBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.saveBtn.Image = global::Log2ConsoleLib.Properties.Resources.saveas16;
+            this.saveBtn.Image = ((System.Drawing.Image)(resources.GetObject("saveBtn.Image")));
             this.saveBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.saveBtn.Name = "saveBtn";
             this.saveBtn.Size = new System.Drawing.Size(23, 22);
@@ -411,7 +411,7 @@ namespace Log2Console
             // 
             // aboutBtn
             // 
-            this.aboutBtn.Image = global::Log2ConsoleLib.Properties.Resources.infoabout16;
+            this.aboutBtn.Image = ((System.Drawing.Image)(resources.GetObject("aboutBtn.Image")));
             this.aboutBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.aboutBtn.Name = "aboutBtn";
             this.aboutBtn.Size = new System.Drawing.Size(60, 22);
@@ -429,7 +429,7 @@ namespace Log2Console
             // 
             this.pinOnTopBtn.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.pinOnTopBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.pinOnTopBtn.Image = global::Log2ConsoleLib.Properties.Resources.cd16;
+            this.pinOnTopBtn.Image = ((System.Drawing.Image)(resources.GetObject("pinOnTopBtn.Image")));
             this.pinOnTopBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.pinOnTopBtn.Name = "pinOnTopBtn";
             this.pinOnTopBtn.Size = new System.Drawing.Size(23, 22);
@@ -530,7 +530,7 @@ namespace Log2Console
             // 
             this.closeLoggersPanelBtn.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.closeLoggersPanelBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.closeLoggersPanelBtn.Image = global::Log2ConsoleLib.Properties.Resources.close16;
+            this.closeLoggersPanelBtn.Image = ((System.Drawing.Image)(resources.GetObject("closeLoggersPanelBtn.Image")));
             this.closeLoggersPanelBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.closeLoggersPanelBtn.Name = "closeLoggersPanelBtn";
             this.closeLoggersPanelBtn.Size = new System.Drawing.Size(23, 22);
@@ -544,7 +544,7 @@ namespace Log2Console
             // 
             // clearLoggersBtn
             // 
-            this.clearLoggersBtn.Image = global::Log2ConsoleLib.Properties.Resources.delete16;
+            this.clearLoggersBtn.Image = ((System.Drawing.Image)(resources.GetObject("clearLoggersBtn.Image")));
             this.clearLoggersBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.clearLoggersBtn.Name = "clearLoggersBtn";
             this.clearLoggersBtn.Size = new System.Drawing.Size(71, 22);
@@ -701,7 +701,7 @@ namespace Log2Console
             // 
             this.closeLogDetailPanelBtn.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.closeLogDetailPanelBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.closeLogDetailPanelBtn.Image = global::Log2ConsoleLib.Properties.Resources.close16;
+            this.closeLogDetailPanelBtn.Image = ((System.Drawing.Image)(resources.GetObject("closeLogDetailPanelBtn.Image")));
             this.closeLogDetailPanelBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.closeLogDetailPanelBtn.Name = "closeLogDetailPanelBtn";
             this.closeLogDetailPanelBtn.Size = new System.Drawing.Size(23, 22);
@@ -716,7 +716,7 @@ namespace Log2Console
             // zoomOutLogDetailsBtn
             // 
             this.zoomOutLogDetailsBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.zoomOutLogDetailsBtn.Image = global::Log2ConsoleLib.Properties.Resources.zoomout16;
+            this.zoomOutLogDetailsBtn.Image = ((System.Drawing.Image)(resources.GetObject("zoomOutLogDetailsBtn.Image")));
             this.zoomOutLogDetailsBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.zoomOutLogDetailsBtn.Name = "zoomOutLogDetailsBtn";
             this.zoomOutLogDetailsBtn.Size = new System.Drawing.Size(23, 22);
@@ -726,7 +726,7 @@ namespace Log2Console
             // zoomInLogDetailsBtn
             // 
             this.zoomInLogDetailsBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.zoomInLogDetailsBtn.Image = global::Log2ConsoleLib.Properties.Resources.zoomin16;
+            this.zoomInLogDetailsBtn.Image = ((System.Drawing.Image)(resources.GetObject("zoomInLogDetailsBtn.Image")));
             this.zoomInLogDetailsBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.zoomInLogDetailsBtn.Name = "zoomInLogDetailsBtn";
             this.zoomInLogDetailsBtn.Size = new System.Drawing.Size(23, 22);
@@ -740,7 +740,7 @@ namespace Log2Console
             // 
             // copyLogDetailBtn
             // 
-            this.copyLogDetailBtn.Image = global::Log2ConsoleLib.Properties.Resources.documentsorcopy16;
+            this.copyLogDetailBtn.Image = ((System.Drawing.Image)(resources.GetObject("copyLogDetailBtn.Image")));
             this.copyLogDetailBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.copyLogDetailBtn.Name = "copyLogDetailBtn";
             this.copyLogDetailBtn.Size = new System.Drawing.Size(55, 22);
@@ -828,7 +828,7 @@ namespace Log2Console
             // btnOpenFileInVS
             // 
             this.btnOpenFileInVS.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.btnOpenFileInVS.Image = global::Log2ConsoleLib.Properties.Resources.saveas16;
+            this.btnOpenFileInVS.Image = ((System.Drawing.Image)(resources.GetObject("btnOpenFileInVS.Image")));
             this.btnOpenFileInVS.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnOpenFileInVS.Name = "btnOpenFileInVS";
             this.btnOpenFileInVS.Size = new System.Drawing.Size(23, 22);
