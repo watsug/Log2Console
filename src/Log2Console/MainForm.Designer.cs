@@ -177,7 +177,7 @@ namespace Log2Console
             this.mainToolStrip.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             this.mainToolStrip.Location = new System.Drawing.Point(0, 0);
             this.mainToolStrip.Name = "mainToolStrip";
-            this.mainToolStrip.Size = new System.Drawing.Size(1121, 25);
+            this.mainToolStrip.Size = new System.Drawing.Size(979, 25);
             this.mainToolStrip.TabIndex = 2;
             this.mainToolStrip.Text = "mainToolStrip";
             // 
@@ -414,7 +414,7 @@ namespace Log2Console
             this.aboutBtn.Image = ((System.Drawing.Image)(resources.GetObject("aboutBtn.Image")));
             this.aboutBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.aboutBtn.Name = "aboutBtn";
-            this.aboutBtn.Size = new System.Drawing.Size(60, 22);
+            this.aboutBtn.Size = new System.Drawing.Size(60, 20);
             this.aboutBtn.Text = "About";
             this.aboutBtn.ToolTipText = "About...";
             this.aboutBtn.Click += new System.EventHandler(this.aboutBtn_Click);
@@ -432,7 +432,7 @@ namespace Log2Console
             this.pinOnTopBtn.Image = ((System.Drawing.Image)(resources.GetObject("pinOnTopBtn.Image")));
             this.pinOnTopBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.pinOnTopBtn.Name = "pinOnTopBtn";
-            this.pinOnTopBtn.Size = new System.Drawing.Size(23, 22);
+            this.pinOnTopBtn.Size = new System.Drawing.Size(23, 20);
             this.pinOnTopBtn.Text = "Pin on Top";
             this.pinOnTopBtn.Click += new System.EventHandler(this.pinOnTopBtn_Click);
             // 
@@ -441,7 +441,7 @@ namespace Log2Console
             this.versionLabel.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.versionLabel.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.versionLabel.Name = "versionLabel";
-            this.versionLabel.Size = new System.Drawing.Size(42, 22);
+            this.versionLabel.Size = new System.Drawing.Size(42, 13);
             this.versionLabel.Text = "Version";
             // 
             // loggerTreeView
@@ -455,7 +455,7 @@ namespace Log2Console
             this.loggerTreeView.Name = "loggerTreeView";
             this.loggerTreeView.PathSeparator = ".";
             this.loggerTreeView.ShowRootLines = false;
-            this.loggerTreeView.Size = new System.Drawing.Size(237, 532);
+            this.loggerTreeView.Size = new System.Drawing.Size(237, 533);
             this.loggerTreeView.TabIndex = 1;
             this.loggerTreeView.AfterCheck += new System.Windows.Forms.TreeViewEventHandler(this.loggerTreeView_AfterCheck);
             this.loggerTreeView.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.loggerTreeView_AfterSelect);
@@ -491,9 +491,9 @@ namespace Log2Console
             // 
             this.loggerPanel.Controls.Add(this.loggerInnerPanel);
             this.loggerPanel.Dock = System.Windows.Forms.DockStyle.Right;
-            this.loggerPanel.Location = new System.Drawing.Point(884, 25);
+            this.loggerPanel.Location = new System.Drawing.Point(742, 25);
             this.loggerPanel.Name = "loggerPanel";
-            this.loggerPanel.Size = new System.Drawing.Size(237, 557);
+            this.loggerPanel.Size = new System.Drawing.Size(237, 558);
             this.loggerPanel.TabIndex = 5;
             // 
             // loggerInnerPanel
@@ -503,7 +503,7 @@ namespace Log2Console
             this.loggerInnerPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.loggerInnerPanel.Location = new System.Drawing.Point(0, 0);
             this.loggerInnerPanel.Name = "loggerInnerPanel";
-            this.loggerInnerPanel.Size = new System.Drawing.Size(237, 557);
+            this.loggerInnerPanel.Size = new System.Drawing.Size(237, 558);
             this.loggerInnerPanel.TabIndex = 5;
             // 
             // loggersToolStrip
@@ -555,9 +555,9 @@ namespace Log2Console
             // loggerSplitter
             // 
             this.loggerSplitter.Dock = System.Windows.Forms.DockStyle.Right;
-            this.loggerSplitter.Location = new System.Drawing.Point(881, 25);
+            this.loggerSplitter.Location = new System.Drawing.Point(739, 25);
             this.loggerSplitter.Name = "loggerSplitter";
-            this.loggerSplitter.Size = new System.Drawing.Size(3, 557);
+            this.loggerSplitter.Size = new System.Drawing.Size(3, 558);
             this.loggerSplitter.TabIndex = 6;
             this.loggerSplitter.TabStop = false;
             // 
@@ -625,9 +625,9 @@ namespace Log2Console
             // 
             this.logDetailPanel.Controls.Add(this.tabControlDetail);
             this.logDetailPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.logDetailPanel.Location = new System.Drawing.Point(0, 388);
+            this.logDetailPanel.Location = new System.Drawing.Point(0, 389);
             this.logDetailPanel.Name = "logDetailPanel";
-            this.logDetailPanel.Size = new System.Drawing.Size(881, 194);
+            this.logDetailPanel.Size = new System.Drawing.Size(739, 194);
             this.logDetailPanel.TabIndex = 7;
             // 
             // tabControlDetail
@@ -639,7 +639,7 @@ namespace Log2Console
             this.tabControlDetail.Location = new System.Drawing.Point(0, 0);
             this.tabControlDetail.Name = "tabControlDetail";
             this.tabControlDetail.SelectedIndex = 0;
-            this.tabControlDetail.Size = new System.Drawing.Size(881, 194);
+            this.tabControlDetail.Size = new System.Drawing.Size(739, 194);
             this.tabControlDetail.TabIndex = 2;
             // 
             // tabMessage
@@ -648,7 +648,7 @@ namespace Log2Console
             this.tabMessage.Location = new System.Drawing.Point(4, 22);
             this.tabMessage.Name = "tabMessage";
             this.tabMessage.Padding = new System.Windows.Forms.Padding(3);
-            this.tabMessage.Size = new System.Drawing.Size(873, 168);
+            this.tabMessage.Size = new System.Drawing.Size(731, 168);
             this.tabMessage.TabIndex = 0;
             this.tabMessage.Text = "Message Details";
             this.tabMessage.UseVisualStyleBackColor = true;
@@ -660,7 +660,7 @@ namespace Log2Console
             this.logDetailInnerPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.logDetailInnerPanel.Location = new System.Drawing.Point(3, 3);
             this.logDetailInnerPanel.Name = "logDetailInnerPanel";
-            this.logDetailInnerPanel.Size = new System.Drawing.Size(867, 162);
+            this.logDetailInnerPanel.Size = new System.Drawing.Size(725, 162);
             this.logDetailInnerPanel.TabIndex = 1;
             // 
             // logDetailTextBox
@@ -670,7 +670,7 @@ namespace Log2Console
             this.logDetailTextBox.Multiline = true;
             this.logDetailTextBox.Name = "logDetailTextBox";
             this.logDetailTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.logDetailTextBox.Size = new System.Drawing.Size(867, 137);
+            this.logDetailTextBox.Size = new System.Drawing.Size(725, 137);
             this.logDetailTextBox.TabIndex = 0;
             this.logDetailTextBox.TextChanged += new System.EventHandler(this.logDetailTextBox_TextChanged);
             // 
@@ -686,7 +686,7 @@ namespace Log2Console
             this.copyLogDetailBtn});
             this.logDetailToolStrip.Location = new System.Drawing.Point(0, 0);
             this.logDetailToolStrip.Name = "logDetailToolStrip";
-            this.logDetailToolStrip.Size = new System.Drawing.Size(867, 25);
+            this.logDetailToolStrip.Size = new System.Drawing.Size(725, 25);
             this.logDetailToolStrip.TabIndex = 1;
             this.logDetailToolStrip.Text = "toolStrip2";
             // 
@@ -838,9 +838,9 @@ namespace Log2Console
             // logDetailSplitter
             // 
             this.logDetailSplitter.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.logDetailSplitter.Location = new System.Drawing.Point(0, 385);
+            this.logDetailSplitter.Location = new System.Drawing.Point(0, 386);
             this.logDetailSplitter.Name = "logDetailSplitter";
-            this.logDetailSplitter.Size = new System.Drawing.Size(881, 3);
+            this.logDetailSplitter.Size = new System.Drawing.Size(739, 3);
             this.logDetailSplitter.TabIndex = 8;
             this.logDetailSplitter.TabStop = false;
             // 
@@ -897,7 +897,7 @@ namespace Log2Console
             this.logListView.MultiSelect = false;
             this.logListView.Name = "logListView";
             this.logListView.ShowItemToolTips = true;
-            this.logListView.Size = new System.Drawing.Size(881, 360);
+            this.logListView.Size = new System.Drawing.Size(739, 361);
             this.logListView.TabIndex = 0;
             this.logListView.UseCompatibleStateImageBehavior = false;
             this.logListView.View = System.Windows.Forms.View.Details;
@@ -947,7 +947,7 @@ namespace Log2Console
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(1121, 582);
+            this.ClientSize = new System.Drawing.Size(979, 583);
             this.Controls.Add(this.logListView);
             this.Controls.Add(this.logDetailSplitter);
             this.Controls.Add(this.logDetailPanel);
